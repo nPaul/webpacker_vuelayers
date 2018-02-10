@@ -1,5 +1,5 @@
-
-import Vue from 'vue/dist/vue.esm'
+import "babel-polyfill"
+import Vue from 'vue'
 import VueLayers from 'vuelayers'
 import TpMap from '../map.vue'
 import 'vuelayers/lib/style.css'

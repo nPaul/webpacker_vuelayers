@@ -5,7 +5,7 @@
 				<vl-view :zoom="2" :center="[0, 0]" :rotation="0"></vl-view>
 
 				<vl-geoloc>
-					<template scope="ctx">
+					<template slot-scope="ctx">
 						<vl-feature v-if="ctx.position" id="geoloc-feature">
 							<vl-geom-point :coordinates="ctx.position"></vl-geom-point>
 						</vl-feature>

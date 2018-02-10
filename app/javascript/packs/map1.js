@@ -1,4 +1,3 @@
-
 import Vue from 'vue'
 import VueLayers from 'vuelayers'
 import TpMap from '../map.vue'
